@@ -7,6 +7,9 @@ import Gateway from './gateway'
 import GetStarted from './getStarted'
 import Values from './values'
 import Testimonials from './testimonials'
+import WhyUs from './whyus'
+import Contact from './contact'
+import Footer from './footer'
 
 const Landing = () => {
   return (
@@ -19,6 +22,9 @@ const Landing = () => {
    <GetStarted />
    <Values />
    <Testimonials />
+   <WhyUs />
+   <Contact />
+   <Footer />
    
    </>
   )
