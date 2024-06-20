@@ -8,12 +8,12 @@ import insta from '../../src/assets/insta.png'
 const Footer = () => {
     return (
         <>
-            <div className='h-[500px] flex justify-around items-center' >
+            <div className='h-[500px] flex justify-around items-center lg:justify-evenly' >
                 <div className='space-y-6'>
                     <img src={logo} alt=""
                         className='h-[80px] w-[80px]'
                     />
-                    <p className='w-[340px]'>
+                    <p className='w-[340px] lg:w-[200px]'>
                         Nam posuere accumsan porta. Integer id
                         orci sed ante tincidunt tincidunt sit amet
                         sed libero
@@ -25,7 +25,7 @@ const Footer = () => {
 
                 <div className='space-y-6'>
                     <h4
-                    className='text-blue-900 text-2xl font-semibold'
+                    className='text-blue-900 text-2xl font-semibold lg:text-xl'
                     >
                         COMPANY
                     </h4>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
                 <div className='space-y-6'>
                     <h4
-                    className='text-blue-900 text-2xl font-semibold'
+                    className='text-blue-900 text-2xl font-semibold lg:text-xl'
                     >
                         SERVICES
                     </h4>
@@ -52,7 +52,7 @@ const Footer = () => {
 
                 <div className='space-y-6'>
                     <h4
-                    className='text-blue-900 text-2xl font-semibold'
+                    className='text-blue-900 text-2xl font-semibold lg:text-xl'
                     >
                         RESOURCES
                     </h4>

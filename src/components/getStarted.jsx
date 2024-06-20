@@ -4,7 +4,7 @@ const GetStarted = () => {
   return (
     <>
     <div className='h-[400px] flex justify-around items-center'>
-     <div className='bg-white shadow-lg shadow-blue-300 w-[1300px] h-[160px]  px-14 flex justify-between items-center '>
+     <div className='bg-white shadow-lg shadow-blue-300 w-[1300px] h-[160px] lg:w-[900px]  px-14 flex justify-between items-center '>
          <div className='flex flex-col space-y-4 '>
             <h4 className='text-green-500 font-bold text-3xl'>
                 Get Started Today!

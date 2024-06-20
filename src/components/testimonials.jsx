@@ -8,15 +8,15 @@ const Testimonials = () => {
         <>
             <div className='h-[500px] flex justify-evenly items-center'>
                 <div className='space-y-3'>
-                    <h2 className='text-4xl font-semibold'>
+                    <h2 className='text-4xl font-semibold lg:text-3xl'>
                         Feedback About Their
 
                     </h2>
-                    <h2 className='text-4xl font-semibold'>
+                    <h2 className='text-4xl font-semibold lg:text-3xl'>
                         Experience With Us
 
                     </h2>
-                    <p className='w-[350px] leading-7'>
+                    <p className='w-[350px] leading-7 lg:w-[300px]'>
                         Read testimonials from our satisfied clients. See how
                         our training programs have transformed their careers
                         and organizations

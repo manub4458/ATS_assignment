@@ -6,22 +6,22 @@ import about2 from '../../src/assets/about2.jpg'
 const About = () => {
     return (
         <>
-            <div className='flex justify-evenly items-center h-[600px]'>
+            <div className='flex  justify-evenly items-center h-[600px] lg:w-full lg:h-[500px] '>
                 <div className='flex '>
-                    <img src={about2} alt="" className='w-[250px] h-[280px] translate-x-28 mt-36 border-e-8 border-t-8 border-white rounded-3xl' />
-                    <img src={about1} alt="" className='w-[380px] h-[380px] border-e-8 border-t-8 border-green-500 rounded-3xl' />
+                    <img src={about2} alt="" className='w-[250px] h-[280px] lg:w-[150px] lg:h-[180px]  translate-x-28 lg:translate-x-11  mt-36 border-e-8 border-t-8 border-white rounded-3xl' />
+                    <img src={about1} alt="" className='w-[380px] h-[380px] lg:w-[200px] lg:h-[220px] border-e-8 border-t-8 border-green-500 rounded-3xl' />
 
                 </div>
 
-                <div className='flex flex-col space-y-4'>
-                    <h4 className='text-xl'>
+                <div className='flex flex-col space-y-4 lg:space-y-3'>
+                    <h4 className='text-xl lg:text-lg'>
                         Capital Bridge
                     </h4>
-                    <h1 className='font-bold text-5xl'>
+                    <h1 className='font-bold text-5xl lg:text-4xl'>
                         About Us
 
                     </h1>
-                    <p className='leading-9 w-[560px] text-xl'>
+                    <p className='leading-9 w-[560px] text-xl lg:w-[500px] lg:text-base'>
                         At Capital Bridge, we believe that the cornerstone of success lies in
                         continuous professional development. Our mission is to bridge the
                         gap between potential and performance by offering cutting edge

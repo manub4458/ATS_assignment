@@ -4,20 +4,20 @@ const Gateway = () => {
     return (
         <>
             <div className='space-y-5'>
-                <h1 className='text-center font-bold text-5xl'>
+                <h1 className='text-center font-bold text-5xl lg:text-4xl'>
                     Your Gateway to Professional Excellence
                 </h1>
-                <p className='text-center poppins'>
+                <p className='text-center poppins lg:text-sm'>
                     Unleashing Potential with Innovative Training Solutions for Professionals and Corporations
                 </p>
 
             </div>
 
-            <div className='h-[800px] flex justify-evenly items-center'>
+            <div className='h-[800px] flex justify-evenly items-center lg:h-[600px]'>
                 <div>
                     <img src={vision} alt=""
 
-                        className='w-[700px] h-[600px] rounded-md'
+                        className='w-[700px] h-[600px] rounded-md lg:w-[500px] lg:h-[500px]'
                     />
                 </div>
 
@@ -25,7 +25,7 @@ const Gateway = () => {
                     <h2 className='text-2xl font-semibold'>
                         Mission
                     </h2>
-                    <p className='w-[400px] text-lg poppins'>
+                    <p className='w-[400px] text-lg poppins lg:w-[380px] lg:text-base'>
                         Our mission at Capital Bridge is to empower
                         individuals and organizations by providing
                         superior training and development solutions
@@ -36,7 +36,8 @@ const Gateway = () => {
                     <h2 className='text-2xl font-semibold'>
                         Vision
                     </h2>
-                    <p className='w-[400px] text-lg poppins '>
+                    <p className='w-[400px] text-lg poppins lg:w-[380px] lg:text-base'>
+
                         Our vision is to become the leading provider
                         of professional training services globally,
                         recognized for our commitment to quality,

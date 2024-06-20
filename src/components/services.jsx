@@ -5,14 +5,15 @@ import logo from '../../src/assets/logo.png';
 const Services = () => {
     return (
         <>
+      
             <div>
-                <h1 className='text-4xl text-center font-bold'>
+                <h1 className='text-4xl text-center font-bold mt-10'>
                     Services
                 </h1>
 
             </div>
 
-            <div className='flex flex-col my-20 space-y-20'>
+            <div className='flex flex-col my-20 space-y-20 lg:my-14 lg:space-y-14'>
                 <div className='flex justify-around'>
                     <div className='flex flex-col justify-center items-center w-[250px]  space-y-3'>
                         <img src={logo} alt=""

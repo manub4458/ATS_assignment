@@ -5,7 +5,7 @@ import address from '../../src/assets/address.png'
 const Contact = () => {
   return (
     <>
-    <div className='h-[600px] flex justify-evenly items-center'>
+    <div className='h-[600px] flex justify-evenly items-center lg:justify-around'>
    <div className='flex flex-col space-y-12'>
     <div>
         <h2 className='text-3xl font-semibold'>
@@ -68,7 +68,7 @@ const Contact = () => {
     <h1 className='text-4xl font-semibold'>
         Keep In Touch
     </h1>
-    <p className='w-[500px]'>
+    <p className='w-[500px] lg:w-[400px]'>
     We prioritize responding to your inquiries promptly to ensure you
 
 receive the assistance you need in a timely manner

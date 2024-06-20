@@ -5,10 +5,10 @@ const WhyUs = () => {
         <>
             <div >
                 <div className='space-y-4'>
-                    <h1 className='text-5xl font-bold text-center'>
+                    <h1 className='text-5xl font-bold text-center lg:text-4xl'>
                         Why Choose Capital Bridge?
                     </h1>
-                    <p className='text-center'>
+                    <p className='text-center lg:text-sm'>
                         Problems trying to resolve the conflict between the two major realms <br />
                         of Classical physics: Newtonian mechanics
 
@@ -17,7 +17,7 @@ const WhyUs = () => {
 
                 </div>
 
-                <div className='h-[400px] flex  justify-evenly items-center'>
+                <div className='h-[400px] flex  justify-evenly items-center lg:h-[350px]'>
 
                     <div className='flex flex-col space-y-20'>
                         <div className='flex flex-col w-[300px]'>
