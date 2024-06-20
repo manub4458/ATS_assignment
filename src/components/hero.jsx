@@ -4,48 +4,48 @@ import hero2 from '../../src/assets/hero2.jpg'
 const Hero = () => {
     return (
         <>
-            <div className='flex justify-evenly items-center h-[700px] poppins lg:h-[600px]  '>
+            <div className='md:flex md:flex-row justify-evenly md:items-center xl:h-[700px] poppins lg:h-[600px] md:h-[600px] sm:h-[700px] sm:flex sm:flex-col sm:items-baseline  '>
 
-                <div className='flex flex-col space-y-5 lg:space-y-3'>
-                    <h4 className='text-xl'>
+                <div className='flex flex-col xl:space-y-5 lg:space-y-3 md:space-y-2 sm:space-y-1'>
+                    <h4 className='lg:text-xl md:text-lg md:text-start sm:text-center sm:text-2xl' >
                         Capital Bridge:
                     </h4>
-                    <h1 className='font-bold text-5xl lg:text-3xl'>
-                        Premier Professional 
-                       
+                    <h1 className='font-bold xl:text-5xl lg:text-3xl md:text-xl md:text-start sm:text-center sm:text-2xl  '>
+                        Premier Professional
+
                     </h1>
-                    <h1 className='font-bold text-5xl lg:text-3xl'>
+                    <h1 className='font-bold xl:text-5xl lg:text-3xl md:text-xl md:text-start sm:text-center sm:text-2xl'>
                         Training and Development
                     </h1>
-                    <h1 className='font-bold text-5xl lg:text-3xl'>
+                    <h1 className='font-bold xl:text-5xl lg:text-3xl md:text-xl md:text-start sm:text-center sm:text-2xl'>
                         Solutions
                     </h1>
-                    <p className='text-lg w-[600px] lg:w-[450px]'>
-                        Empowering Professionals through Comprehensive Training 
+                    <p className='xl:text-lg xl:w-[600px] lg:w-[450px] md:w-[300px] md:text-base md:text-start sm:text-center '>
+                        Empowering Professionals through Comprehensive Training
                         and Development Solutions
                     </p>
 
-                    <div className='flex gap-x-6'>
-                   <button
-                   className='bg-green-500 text-white p-4 rounded-md'
-                   >
-                    Get started Now
-                   </button>
-                   <button
-                   className='border border-black p-4 rounded-md'
-                   >
-                    View all Services
-                   </button>
-                </div>
+                    <div className='flex gap-x-6 md:justify-start sm:justify-center '>
+                        <button
+                            className='bg-green-500 lg:text-base text-white xl:p-4 md:mt-0 sm:mt-4 rounded-md md:p-2 md:text-sm  sm:text-xs sm:p-2'
+                        >
+                            Get started Now
+                        </button>
+                        <button
+                            className='border border-black lg:text-base xl:p-4 rounded-md md:mt-0 sm:mt-4 md:p-2 md:text-sm sm:text-xs sm:p-2'
+                        >
+                            View all Services
+                        </button>
+                    </div>
                 </div>
 
                 <div>
                     <img src={hero2} alt=""
-                        className='w-[600px] h-[450px] lg:w-[400px] lg:h-[350px]'
+                        className='xl:w-[600px] xl:h-[450px]  lg:w-[400px] lg:h-[350px] md:w-[280px] md:h-[320px] sm:w-[500px]'
                     />
                 </div>
 
-               
+
             </div>
 
         </>

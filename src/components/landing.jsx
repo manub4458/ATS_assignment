@@ -10,23 +10,29 @@ import Testimonials from './testimonials'
 import WhyUs from './whyus'
 import Contact from './contact'
 import Footer from './footer'
+import Mobnav from './mobnav'
 
 const Landing = () => {
   return (
-   <>
-   <Header />
-   <Hero />
-   <About />
-   <Services />
-   <Gateway />
-   <GetStarted />
-   <Values />
-   <Testimonials />
-   <WhyUs />
-   <Contact />
-   <Footer />
-   
-   </>
+    <>
+      <div className='sm:hidden md:inline-block w-full'>
+        <Header />
+      </div>
+      <div className='sm:inline-block md:hidden'>
+        <Mobnav />
+      </div>
+      <Hero />
+      <About />
+      <Services />
+      <Gateway />
+      <GetStarted />
+      <Values />
+      <Testimonials />
+      <WhyUs />
+      <Contact />
+      <Footer />
+
+    </>
   )
 }
 

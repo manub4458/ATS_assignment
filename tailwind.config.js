@@ -3,23 +3,23 @@ module.exports = {
   content: ["./src/components/*.{html,js,jsx}"],
   theme: {
     screens: {
-      "sm": { max: "640px" },
+      "sm": { min: "375px" },
     
 
 			
 
-			"md": { max: "768px" },
+			"md": { min: "768px" },
 			// => @media (max-width: 767px) { ... }
 
 
-      "lg": { max: "1024px" },
+      "lg": { min: "1024px" },
 			// => @media (max-width: 1023px) { ... }
 
       
-			"xl": { max: "1280px" },
+			"xl": { min: "1280px" },
 			// => @media (max-width: 1279px) { ... }
 
-      "2xl": { max: "1536px" },
+      "2xl": { min: "1536px" },
 			// => @media (max-width: 1535px) { ... }
 
 
