@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../src/assets/logo.png';
+
 import professional from '../../src/assets/professional.png'
 import sales from '../../src/assets/sales.png'
 import manpower from '../../src/assets/manpower.png'
