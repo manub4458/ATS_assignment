@@ -36,7 +36,7 @@ const Testimonials = () => {
                     </div>
                 </div>
 
-                <div className='md:flex md:flex-row sm:flex sm:flex-col sm:justify-center border-e-8 border-t-8 md:w-[500px] sm:w-[350px] md:ml-0 sm:ml-10 h-[250px] sm:h-[370px] px-2 space-y-2 items-center justify-center border-green-500 rounded-3xl xl:my-0 md:my-14 sm:my-10 sm:py-3 md:py-0'>
+                <div className='md:flex md:flex-row sm:flex sm:flex-col sm:justify-center border-e-8 border-t-8 md:w-[500px] sm:w-[90vw] md:ml-0 sm:ml-5 h-[250px] sm:h-[370px] px-2 space-y-2 items-center justify-center border-green-500 rounded-3xl xl:my-0 md:my-14 sm:my-10 sm:py-3 md:py-0'>
                     <div>
                         <img src={test1} alt=""
                             className='xl:h-[170px] xl:w-[140px] lg:h-[160px] lg:w-[130px] md:h-[200px] md:w-[170px] sm:h-[120px]'
@@ -63,7 +63,7 @@ const Testimonials = () => {
                         </div>
 
                         <div>
-                            <p className='w-[350px] lg:text-base md:text-sm'>
+                            <p className='w-[350px] lg:text-base md:text-sm sm:w-[80vw]'>
                                 Excellent service! The team was punctual,
                                 thorough, and left my home sparkling clean.
                                 Highly recommend for anyone needing a

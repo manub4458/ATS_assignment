@@ -3,9 +3,9 @@ import React from 'react'
 const WhyUs = () => {
     return (
         <>
-            <div className='lg:my-0 md:my-20 '>
+            <div className='lg:my-0 md:my-20 sm:my-6 '>
                 <div className='space-y-4'>
-                    <h1 className='xl:text-5xl font-bold text-center lg:text-4xl md:text-3xl sm:text-2xl'>
+                    <h1 className='xl:text-5xl font-bold text-center lg:text-4xl md:text-3xl sm:text-2xl md:px-0 sm:px-2'>
                         Why Choose Capital Bridge?
                     </h1>
                     <p className='text-center lg:text-sm md:text-xs '>
@@ -25,7 +25,7 @@ const WhyUs = () => {
                                 Expertise
                             </h4>
 
-                            <p>
+                            <p className=''>
                                 Solutions for developing a skilled and
                                 adaptable workforce
                             </p>

@@ -23,9 +23,9 @@ const Footer = () => {
                     </p>
                 </div>
 
-                <div className='space-y-6'>
+                <div className='space-y-6 '>
                     <h4
-                        className='text-blue-900 xl:text-2xl font-semibold lg:text-xl'
+                        className='text-blue-900 xl:text-2xl font-semibold lg:text-xl '
                     >
                         COMPANY
                     </h4>
