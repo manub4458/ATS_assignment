@@ -66,7 +66,7 @@ const Contact = () => {
         </div>
 
         <div className='space-y-5 lg:my-0 md:my-10 sm:my-8'>
-          <p className='lg:px-0 md:px-10 sm:px-10'>
+          <p className='lg:px-0 md:px-10 sm:px-5'>
             Contact Info
           </p>
           <h1 className='text-4xl font-semibold lg:mx-0 md:mx-10 sm:mx-5 '>

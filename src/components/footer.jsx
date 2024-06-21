@@ -8,7 +8,7 @@ import insta from '../../src/assets/insta.png'
 const Footer = () => {
     return (
         <>
-            <div className='lg:h-[500px] lg:flex xl:justify-around  lg:items-center lg:justify-evenly md:flex md:items-center md:flex-wrap sm:flex sm:flex-wrap sm:justify-center md:h-[800px] md:justify-evenly sm:h-[900px] lg:gap-x-0 md:gap-x-10 sm:gap-x-10 lg:mx-0 md:mx-10 ' >
+            <div className='lg:h-[500px] lg:flex xl:justify-around  lg:items-center lg:justify-evenly md:flex md:items-center md:flex-wrap sm:flex sm:flex-wrap  md:h-[800px] md:justify-evenly sm:h-[900px] lg:gap-x-0 md:gap-x-10 sm:gap-x-10 lg:mx-0 md:mx-10 sm:justify-evenly ' >
                 <div className='space-y-6 sm:flex sm:flex-col sm:justify-center md:items-start sm:items-center'>
                     <img src={logo} alt=""
                         className='h-[80px] w-[80px]'
@@ -66,10 +66,10 @@ const Footer = () => {
 
                 <div className='flex flex-col space-y-5'>
                     <div className='flex gap-x-2'>
-                        <img src={facebook} alt="" className='h-[40px] w-[40px]' />
-                        <img src={linkedin} alt="" className='h-[40px] w-[40px]' />
-                        <img src={twitter} alt="" className='h-[40px] w-[40px]' />
-                        <img src={insta} alt="" className='h-[40px] w-[40px]' />
+                        <img src={facebook} alt="" className='md:h-[40px] md:w-[40px]' />
+                        <img src={linkedin} alt="" className='md:h-[40px] md:w-[40px]' />
+                        <img src={twitter} alt="" className=' md:h-[40px] md:w-[40px]' />
+                        <img src={insta} alt="" className='   md:h-[40px] md:w-[40px]' />
                     </div>
                     <div>
 

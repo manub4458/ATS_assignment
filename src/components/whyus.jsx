@@ -8,7 +8,7 @@ const WhyUs = () => {
                     <h1 className='xl:text-5xl font-bold text-center lg:text-4xl md:text-3xl sm:text-2xl md:px-0 sm:px-2'>
                         Why Choose Capital Bridge?
                     </h1>
-                    <p className='text-center lg:text-sm md:text-xs '>
+                    <p className='text-center lg:text-sm md:text-xs md:px-0 sm:px-2 '>
                         Problems trying to resolve the conflict between the two major realms <br className='sm:hidden md:inline-block' />
                         of Classical physics: Newtonian mechanics
 
