@@ -5,7 +5,9 @@ import address from '../../src/assets/address.png'
 const Contact = () => {
   return (
     <>
-      <div className='lg:h-[600px] lg:flex xl:justify-evenly items-center lg:justify-around md:flex md:flex-wrap md:h-[1000px] sm:h-[950px]'>
+      <div className='lg:h-[600px] lg:flex xl:justify-evenly items-center lg:justify-around md:flex md:flex-wrap md:h-[1000px] sm:h-[950px]'
+      id='contact'
+      >
         <div className='flex flex-col space-y-12 lg:w-max md:w-[100vw]  '>
           <div>
             <h2 className='text-3xl font-semibold lg:text-start lg:mx-0 md:mx-12 sm:mx-6 sm:mt-10 md:mt-0 '>

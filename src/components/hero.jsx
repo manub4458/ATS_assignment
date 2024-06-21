@@ -31,11 +31,13 @@ const Hero = () => {
                         >
                             Get started Now
                         </button>
-                        <button
+                       <a href="#services">
+                       <button
                             className='border border-black lg:text-base xl:p-4 rounded-md md:mt-0 sm:mt-4 md:p-2 md:text-sm sm:text-xs sm:p-2'
                         >
                             View all Services
                         </button>
+                       </a>
                     </div>
                 </div>
 

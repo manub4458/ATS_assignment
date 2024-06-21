@@ -44,11 +44,13 @@ const Header = () => {
                 </div>
 
                 <div>
+                    <a href="#contact">
                     <button
                         className='border-2 border-green-700 py-3 px-10 rounded-md poppins'
                     >
                         Contact us
                     </button>
+                    </a>
                 </div>
             </div>
 

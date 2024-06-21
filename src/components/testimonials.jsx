@@ -63,7 +63,7 @@ const Testimonials = () => {
                         </div>
 
                         <div>
-                            <p className='w-[350px] lg:text-base md:text-sm sm:w-[80vw]'>
+                            <p className='md:w-[350px] lg:text-base md:text-sm sm:w-[80vw]'>
                                 Excellent service! The team was punctual,
                                 thorough, and left my home sparkling clean.
                                 Highly recommend for anyone needing a

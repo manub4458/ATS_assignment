@@ -10,8 +10,8 @@ import marketing from '../../src/assets/marketing.png'
 const Services = () => {
     return (
         <>
-
-            <div>
+  
+            <div id='services'>
                 <h1 className='text-4xl text-center font-bold mt-10'>
                     Services
                 </h1>
